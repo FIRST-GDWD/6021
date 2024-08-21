@@ -1,0 +1,28 @@
+#palette1-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #bdfffd;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #9ffff5;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background-color: #7cffc4;
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}

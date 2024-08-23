@@ -1,0 +1,44 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+}
+
+#navbar a {
+    color: white;
+}
+
+p a {
+    color: teal;
+}
+
+p.warning {
+    color: crimson;
+}
+
+p.warning a {
+    color: orange;
+}
+
+/* Now this time, suppose the client
+    wants unordered list text to be green,
+    but for the hyperlinks inside to be different
+    colors based on what they're inside of: 
+        - lime by default
+        - purple if inside a paragraph 
+        - lightblue if inside a div */
+ul {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+
+ul p a {
+    color: purple;
+}
+
+ul div a {
+    color: lightblue;
+}

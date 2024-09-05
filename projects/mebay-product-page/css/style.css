@@ -1,0 +1,19 @@
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#column-one {
+    background-color: green;
+    height: 250px;
+}
+
+#column-two {
+    background-color: goldenrod;
+    height: 250px;
+}
+
+#column-three {
+    background-color: fuchsia;
+    height: 250px;
+}

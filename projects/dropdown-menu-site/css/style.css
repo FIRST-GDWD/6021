@@ -4,11 +4,15 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #109CB8, #0E5B96);
+    background: linear-gradient(
+        to bottom, 
+        tan, 
+        rgb(152, 99, 30)
+    );
     display: flex;
     align-items: center;
 }
@@ -18,6 +22,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 24px;
 }
 
 #navbar #logo {
@@ -31,8 +36,8 @@ body {
 #navbar a:hover {
     background: linear-gradient(
         to top, 
-        #109CB8, 
-        #0E5B96
+        tan, 
+        rgb(152, 99, 30)
     );
 }
 
@@ -59,12 +64,63 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: darkkhaki;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: rgb(121, 106, 19);
 }
 
+#hero {
+    background-image: url("../images/fantastic-beasts.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    background-color: darkred;
+    padding: 48px;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 8px;
+    color: #FFDDDD;
+}
+
+#layout {
+    width: 50%;
+    max-width: 900px;
+    min-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.card {
+    background-color: tan;
+    padding: 48px;
+    font-size: 24px;
+    border-radius: 8px;;
+}
+
+.card img {
+    width: 100%;
+    background-color: beige;
+
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #layout {
+        min-width: auto;
+        width: 90%;
+    }
+}
